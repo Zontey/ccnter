@@ -1,0 +1,45 @@
+﻿<Window x:Class="CallCenterApp.Views.CallCenterWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CallCenterApp.Views"
+        mc:Ignorable="d"
+        Title="CallCenterWindow" Height="325" Width="900" MinHeight="325" MinWidth="900" WindowState="Maximized" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="buttonCreate" Content="Dodaj" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="buttonCreate_Click"/>
+        <Button x:Name="buttonEdit" Content="Edytuj" HorizontalAlignment="Left" Margin="90,10,0,0" VerticalAlignment="Top" Width="75" Click="buttonEdit_Click"/>
+        <Button x:Name="buttonShow" Content="Pokaż" HorizontalAlignment="Left" Margin="170,10,0,0" VerticalAlignment="Top" Width="75" Click="buttonShow_Click"/>
+        <Button x:Name="buttonDelete" Content="Usuń" HorizontalAlignment="Left" Margin="250,10,0,0" VerticalAlignment="Top" Width="75" Click="buttonDelete_Click"/>
+        <DataGrid x:Name="dataGridContractors" AutoGenerateColumns="False" IsReadOnly="True" Margin="10,35,10,10" CanUserAddRows="false" SelectionMode="Single" SelectedItem="{Binding SelectedContractor, Mode=TwoWay}"  ItemsSource="{Binding Contractors, Mode=OneWay, NotifyOnSourceUpdated=True, UpdateSourceTrigger=PropertyChanged}">
+            <DataGrid.Resources>
+                <Style TargetType="DataGridRow">
+                    <EventSetter Event="MouseDoubleClick" Handler="DataGridWarehouse_OnMouseDoubleClick"/>
+                </Style>
+            </DataGrid.Resources>
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Data Wprowadzenia" MinWidth="120" Width="120*" Binding="{Binding Path=LaunchDate, StringFormat=\{0:dd.MM.yyyy\}}"/>
+                <DataGridTextColumn Header="Nazwa Firmy" MinWidth="120" Binding="{Binding Path=CompanyName}"/>
+                <DataGridTextColumn Header="NIP" MinWidth="120" Width="120*" Binding="{Binding Path=NIP}"/>
+                <DataGridTextColumn Header="Województwo" MinWidth="120" Binding="{Binding Path=Voivodeship}"/>
+                <DataGridTextColumn Header="Umowa Do" MinWidth="120" Width="120*" Binding="{Binding Path=DateOfContract, StringFormat=\{0:dd.MM.yyyy\}}"/>
+                <DataGridTextColumn Header="Data Spotkania" MinWidth="120" Width="120*" Binding="{Binding Path=DateOfAppointment, StringFormat=\{0:dd.MM.yyyy\}}"/>
+                <DataGridTextColumn Header="Nr telefonu" MinWidth="120" Width="120*" Binding="{Binding Path=TelNumber}"/>
+                <DataGridTextColumn Header="Taryfa" MinWidth="120" Width="120*" Binding="{Binding Path=Tariff}"/>
+                <DataGridTextColumn Header="Adres" MinWidth="120" Width="120*" Binding="{Binding Path=Adress}"/>
+                <DataGridTextColumn Header="Kontakt" MinWidth="120" Width="120*" Binding="{Binding Path=Contact, StringFormat=\{0:dd.MM.yyyy\}}"/>
+                <DataGridTextColumn Header="Uwagi" MinWidth="120" Width="120*" Binding="{Binding Path=OthersInfo}"/>
+                <DataGridTextColumn x:Name="GridColumnWhoCreated" Header="Kto dodał" MinWidth="120" Width="120*" Binding="{Binding Path=WhoCreatedName}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <ComboBox x:Name="comboBoxCriterias" SelectedItem="{Binding SelectedSearchCriteria, Mode=TwoWay}"  ItemsSource="{Binding SearchCriterias, Mode=OneWay}" Margin="0,8,90,0" HorizontalAlignment="Right" Width="120" Height="22" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxSearch" Margin="0,8,215,0" TextWrapping="Wrap" Text="{Binding Mode=TwoWay, Path=SearchCriteria}" HorizontalAlignment="Right" Width="120" Height="23" VerticalAlignment="Top"/>
+        <Button x:Name="buttonSearch" Content="Szukaj" Margin="0,10,10,0" Click="buttonSearch_Click" HorizontalAlignment="Right" Width="75" Height="20" VerticalAlignment="Top"/>
+        <Button x:Name="buttonUsers" Content="Użytkownicy" HorizontalAlignment="Left" Margin="372,10,0,0" VerticalAlignment="Top" Width="75" Click="buttonUsers_Click"/>
+
+
+    </Grid>
+</Window>
