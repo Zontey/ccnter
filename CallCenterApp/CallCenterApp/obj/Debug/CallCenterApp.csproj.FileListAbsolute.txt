@@ -110,3 +110,33 @@ C:\Users\Michal\Documents\Visual Studio 2015\Projects\CallCenterApp\CallCenterAp
 C:\Users\Michal\Documents\Visual Studio 2015\Projects\CallCenterApp\CallCenterApp\CallCenterApp\CallCenterApp\obj\Debug\CallCenterApp.Migrations._12.resources
 C:\Users\Michal\Documents\Visual Studio 2015\Projects\CallCenterApp\CallCenterApp\CallCenterApp\CallCenterApp\obj\Debug\CallCenterApp.Properties.Resources.resources
 C:\Users\Michal\Documents\Visual Studio 2015\Projects\CallCenterApp\CallCenterApp\CallCenterApp\CallCenterApp\obj\Debug\CallCenterApp.csproj.GenerateResource.Cache
+C:\Users\Michal\Documents\git\CallCenter\ccnter\CallCenterApp\CallCenterApp\bin\Debug\CallCenterApp.exe.config
+C:\Users\Michal\Documents\git\CallCenter\ccnter\CallCenterApp\CallCenterApp\obj\Debug\CallCenterApp.exe
+C:\Users\Michal\Documents\git\CallCenter\ccnter\CallCenterApp\CallCenterApp\obj\Debug\CallCenterApp.pdb
+C:\Users\Michal\Documents\git\CallCenter\ccnter\CallCenterApp\CallCenterApp\bin\Debug\CallCenterApp.exe
+C:\Users\Michal\Documents\git\CallCenter\ccnter\CallCenterApp\CallCenterApp\bin\Debug\CallCenterApp.pdb
+C:\Users\Michal\Documents\git\CallCenter\ccnter\CallCenterApp\CallCenterApp\bin\Debug\EntityFramework.dll
+C:\Users\Michal\Documents\git\CallCenter\ccnter\CallCenterApp\CallCenterApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Michal\Documents\git\CallCenter\ccnter\CallCenterApp\CallCenterApp\bin\Debug\MySql.Data.dll
+C:\Users\Michal\Documents\git\CallCenter\ccnter\CallCenterApp\CallCenterApp\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Michal\Documents\git\CallCenter\ccnter\CallCenterApp\CallCenterApp\bin\Debug\EntityFramework.xml
+C:\Users\Michal\Documents\git\CallCenter\ccnter\CallCenterApp\CallCenterApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Michal\Documents\git\CallCenter\ccnter\CallCenterApp\CallCenterApp\obj\Debug\MainWindow.g.cs
+C:\Users\Michal\Documents\git\CallCenter\ccnter\CallCenterApp\CallCenterApp\obj\Debug\Views\CallCenterWindow.g.cs
+C:\Users\Michal\Documents\git\CallCenter\ccnter\CallCenterApp\CallCenterApp\obj\Debug\Views\Contractor.g.cs
+C:\Users\Michal\Documents\git\CallCenter\ccnter\CallCenterApp\CallCenterApp\obj\Debug\Views\User.g.cs
+C:\Users\Michal\Documents\git\CallCenter\ccnter\CallCenterApp\CallCenterApp\obj\Debug\Views\Users.g.cs
+C:\Users\Michal\Documents\git\CallCenter\ccnter\CallCenterApp\CallCenterApp\obj\Debug\App.g.cs
+C:\Users\Michal\Documents\git\CallCenter\ccnter\CallCenterApp\CallCenterApp\obj\Debug\CallCenterApp_MarkupCompile.cache
+C:\Users\Michal\Documents\git\CallCenter\ccnter\CallCenterApp\CallCenterApp\obj\Debug\CallCenterApp_MarkupCompile.lref
+C:\Users\Michal\Documents\git\CallCenter\ccnter\CallCenterApp\CallCenterApp\obj\Debug\MainWindow.baml
+C:\Users\Michal\Documents\git\CallCenter\ccnter\CallCenterApp\CallCenterApp\obj\Debug\Views\CallCenterWindow.baml
+C:\Users\Michal\Documents\git\CallCenter\ccnter\CallCenterApp\CallCenterApp\obj\Debug\Views\Contractor.baml
+C:\Users\Michal\Documents\git\CallCenter\ccnter\CallCenterApp\CallCenterApp\obj\Debug\Views\User.baml
+C:\Users\Michal\Documents\git\CallCenter\ccnter\CallCenterApp\CallCenterApp\obj\Debug\Views\Users.baml
+C:\Users\Michal\Documents\git\CallCenter\ccnter\CallCenterApp\CallCenterApp\obj\Debug\CallCenterApp.g.resources
+C:\Users\Michal\Documents\git\CallCenter\ccnter\CallCenterApp\CallCenterApp\obj\Debug\CallCenterApp.Migrations._11.resources
+C:\Users\Michal\Documents\git\CallCenter\ccnter\CallCenterApp\CallCenterApp\obj\Debug\CallCenterApp.Migrations._12.resources
+C:\Users\Michal\Documents\git\CallCenter\ccnter\CallCenterApp\CallCenterApp\obj\Debug\CallCenterApp.Properties.Resources.resources
+C:\Users\Michal\Documents\git\CallCenter\ccnter\CallCenterApp\CallCenterApp\obj\Debug\CallCenterApp.csproj.GenerateResource.Cache
+C:\Users\Michal\Documents\git\CallCenter\ccnter\CallCenterApp\CallCenterApp\obj\Debug\CallCenterApp.csprojResolveAssemblyReference.cache

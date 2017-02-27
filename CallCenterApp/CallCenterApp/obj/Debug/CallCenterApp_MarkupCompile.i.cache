@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Michal\Documents\Visual Studio 2015\Projects\CallCenterApp\CallCenterApp\CallCenterApp\CallCenterApp\obj\Debug\
+C:\Users\Michal\Documents\git\CallCenter\ccnter\CallCenterApp\CallCenterApp\obj\Debug\
 CallCenterApp
 none
 false
 DEBUG;TRACE
-C:\Users\Michal\Documents\Visual Studio 2015\Projects\CallCenterApp\CallCenterApp\CallCenterApp\CallCenterApp\App.xaml
+C:\Users\Michal\Documents\git\CallCenter\ccnter\CallCenterApp\CallCenterApp\App.xaml
 51564554656
 
 32-1051598266
-18-1577432564
+18-1451684918
 MainWindow.xaml;Views\CallCenterWindow.xaml;Views\Contractor.xaml;Views\User.xaml;Views\Users.xaml;
 
-True
+False
 
